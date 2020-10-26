@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Kind of Twitter",
+    "description": "Platform to share short messages of upto 140 characters.",
+    "github_link": "https://github.com/mum-never-proud/kind-of-twitter/",
+    "demo_link": "https://kind-of-twitter.netlify.app/explore",
+    "features": [
+      "Tweets upto 140 characters is supported.",
+      "Real Time Synchronization.",
+      "Tweet an Image.",
+      "Favourite Tweets."
+    ]
+  },
+  {
+    "name": "Kind of Amazon",
+    "description": "Amazon clone with Payment gateway Integration.",
+    "github_link": "https://github.com/mum-never-proud/kind-of-amazon/",
+    "demo_link": "https://amz-clone.netlify.app/",
+    "features": [
+      "Supports Multifilters to filter out the Products.",
+      "Images are loaded from CDN with a WebP format to improve load time.",
+      "Make payment using Testcards to Place order."
+    ]
+  },
+  {
+    "name": "My Portfolio",
+    "description": "My Portfolio (current WebApp) is built in React.js with SSR (Next.js).",
+    "github_link": "https://github.com/mum-never-proud/god-promise",
+    "demo_link": "",
+    "features": [
+      "Styled Components",
+      "Progressive Web App.",
+      "Your messages are stored in AirTable."
+    ]
+  }
+]

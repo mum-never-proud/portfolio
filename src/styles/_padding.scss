@@ -1,0 +1,17 @@
+@for $padding from 0 through 10 {
+  .pt-#{$padding} {
+    padding-top: #{$padding}em !important;
+  }
+
+  .pb-#{$padding} {
+    padding-bottom: #{$padding}em !important;
+  }
+
+  .pl-#{$padding} {
+    padding-left: #{$padding}em !important;
+  }
+
+  .p-#{$padding} {
+    padding: #{$padding}em !important;
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "no-param-reassign": ["error", { "props": false }]
+    },
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "map": [
+                    ["@", "./src"],
+                    ["@components", "./src/components"],
+                    ["@constants", "./src/constants"],
+                    ["@fragments", "./src/components/fragments"],
+                    ["@services", "./src/services"],
+                    ["@styles", "./src/styles"],
+                    ["@utils", "./src/utils"]
+                ],
+                "extensions": [".js", ".jsx", ".scss", ".css"]
+            }
+        }
+    }
+}

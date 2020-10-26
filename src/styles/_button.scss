@@ -1,0 +1,45 @@
+button:active, button:focus {
+  outline: none;
+}
+
+button.btn-block {
+  width: 100%;
+}
+
+button.btn.btn-link {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: $sky-of-magritte;
+  }
+}
+
+button.btn {
+  padding: 5px 15px;
+  font-size: var(--font-size-medium);
+  transition: box-shadow 0.3s ease-in-out;
+
+  > svg {
+    vertical-align: middle;
+  }
+}
+
+button.btn {
+  &:hover:not(:disabled):not(.btn-link) {
+    cursor: pointer;
+    box-shadow: var(--elevation-low);
+  }
+
+  &:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+}
+
+button.btn-primary {
+  color: var(--wash-me);
+  background-color: var(--black-out);
+}

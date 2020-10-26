@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Jrrey",
+    "description": "Jrrey lets your visitors control your Website with Voice Commands.",
+    "github_link": "https://github.com/mum-never-proud/jrrey/",
+    "demo_link": "https://mum-never-proud.github.io/jrrey/",
+    "features": [
+      "Light weight library makes it easier to add Speech Recognition to your Websites.",
+      "Jrrey understands commands with named Variables and Optional words (using RegExp).",
+      "Jrrey plays nicely with all browsers and doesn't have side effects on unsupported Browsers."
+    ]
+  },
+  {
+    "name": "Kind of Adobe",
+    "description": "Browser based Image editor in Vanilla JS.",
+    "github_link": "https://github.com/mum-never-proud/kind-of-adobe/",
+    "demo_link": "https://mum-never-proud.github.io/kind-of-adobe/",
+    "features": [
+      "Supports multiple Image Filters and Effects.",
+      "Performant on Low End Devcies.",
+      "Your Image stays in your browser, no data is transmitted over the Internet."
+    ]
+  },
+  {
+    "name": "jSpeaker",
+    "description": "A Javascript Text to Speech (TTS) library.",
+    "github_link": "https://github.com/mum-never-proud/jspeaker/",
+    "demo_link": "https://mum-never-proud.github.io/jspeaker/",
+    "features": [
+      "Makes use of Browser's built-in Web Speech API to convert Text to Speech.",
+      "Latency of converting Text to Speech can be completely avoided if the browser supports Web Speech API."
+    ]
+  }
+]

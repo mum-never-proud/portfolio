@@ -1,0 +1,13 @@
+@for $margin from 0 through 10 {
+  .mt-#{$margin} {
+    margin-top: #{$margin}em !important;
+  }
+
+  .mb-#{$margin} {
+    margin-bottom: #{$margin}em !important;
+  }
+
+  .ml-#{$margin} {
+    margin-left: #{$margin}em !important;
+  }
+}

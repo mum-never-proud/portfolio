@@ -1,0 +1,54 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "abhuz's portfolio",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mum-never-proud/portfolio.git"
+  },
+  "keywords": [
+    "abhuz",
+    "mum-never-proud",
+    "portfolio",
+    "frontend",
+    "software",
+    "engineer"
+  ],
+  "author": "mum-never-proud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mum-never-proud/portfolio/issues"
+  },
+  "homepage": "https://github.com/mum-never-proud/portfolio#readme",
+  "sasslintConfig": "./sasslintrc.json",
+  "dependencies": {
+    "next": "9.5.5",
+    "prop-types": "15.7.2",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-icons": "3.11.0",
+    "react-intersection-observer": "8.29.1",
+    "react-scroll": "1.8.1",
+    "react-spring": "8.0.27",
+    "react-toastify": "6.0.9",
+    "styled-components": "5.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "1.11.1",
+    "eslint": "7.12.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "sass": "1.27.0",
+    "sass-lint": "1.13.1"
+  }
+}

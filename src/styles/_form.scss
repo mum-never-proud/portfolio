@@ -1,0 +1,42 @@
+$input-padding: 5px;
+
+input, textarea, select {
+  padding: $input-padding 0;
+  background-color: var(--wash-me);
+  border-bottom: 1px solid #ccc;
+  transition: border 0.3s ease;
+
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid var(--sky-of-magritte);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.form-group {
+  margin-bottom: 2.5em;
+
+  &.has-error {
+    .form-control {
+      border-bottom: 1px solid var(--cruel-ruby);
+    }
+
+    .error-message {
+      color: var(--cruel-ruby);
+    }
+  }
+
+  label {
+    font-weight: bold;
+
+    .form-control {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+}

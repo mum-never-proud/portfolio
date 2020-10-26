@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Quarry",
+    "description": "Provides an interface to query Objects from an Array (collections) with minimal code.",
+    "github_link": "https://github.com/mum-never-proud/quarry",
+    "demo_link": "https://mum-never-proud.github.io/quarry",
+    "features": [
+      "Provides a simple interface to query Objects from an Array (collections).",
+      "Makes your code much readable and concise."
+    ]
+  },
+  {
+    "name": "WhatsUp",
+    "description": "A fun Service developed using Twilio WhatsApp API.",
+    "github_link": "https://github.com/mum-never-proud/redux",
+    "demo_link": "https://mum-never-proud.github.io/ironic/",
+    "features": [
+      "Preview Spotify songs on WhatsApp using spotify-preview (song name).",
+      "Get Github User Profile on WhatsApp using git-user (user name).",
+      "Get Github Repo Details on WhatsApp using git-repo (repo name).",
+      "Get NPM Registry Details on WhatsApp using npm-reg (registry name)."
+    ]
+  },
+  {
+    "name": "Text Similarity Analysis",
+    "description": "Library to calculate Cosine similarity and Levenshtein distance between two sentences.",
+    "github_link": "https://github.com/mum-never-proud/text-similarity-analysis",
+    "demo_link": "https://mum-never-proud.github.io/text-similarity-analysis/"
+  },
+  {
+    "name": "Wiki Snapshot",
+    "description": "DOM snapshot Serializer/Deserializer",
+    "github_link": "https://github.com/mum-never-proud/wiki-events-snapshot",
+    "demo_link": "",
+    "features": [
+      "Recursively captures the DOM snapshot and Serialize to transmit over the Network.",
+      "Reconstructs/Deserialize the DOM snapshot "
+    ]
+  }
+]
