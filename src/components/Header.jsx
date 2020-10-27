@@ -54,7 +54,7 @@ const Header = () => {
   const [activeSection, setActiveSection] = useState(-1);
   const scrollToHandler = (scrollTo) => scroller.scrollTo(scrollTo, {
     smooth: true,
-    offset: -96,
+    offset: -106,
   });
 
   useEffect(() => {
@@ -65,7 +65,7 @@ const Header = () => {
       sectionsIds.forEach((sectionId, index) => {
         const section = document.getElementById(sectionId);
 
-        if (window.scrollY >= section.offsetTop - 96) {
+        if (window.scrollY >= section.offsetTop - 106) {
           currentIndex = index;
         }
       });

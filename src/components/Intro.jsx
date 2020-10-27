@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import introSentences from '@constants/intro.json';
 
 const IntroWrapper = styled.div`
-  min-height: calc(100vh - 64px - 3em);
+  min-height: calc(100vh - 106px - 3em);
 
   > div {
     max-width: 500px;
