@@ -4,7 +4,7 @@ import ProjectGroup from '@fragments/ProjectGroup';
 import styled from 'styled-components';
 import categories from '@constants/project-categories.json';
 import miscProjects from '@constants/misc-projects.json';
-import newFeatProjects from '@constants/new-feat-projects.json';
+import experimentalProjects from '@constants/experimental-projects.json';
 import reactProjects from '@constants/react-projects.json';
 import reinventedProjects from '@constants/reinvented-projects.json';
 
@@ -23,7 +23,7 @@ const ProjectsWrapper = styled.div`
       flex: 1;
       min-width: 120px;
       text-align: center;
-      border-bottom: 2px solid #ccc;
+      border-bottom: 2px solid var(--cerebral-grey);
 
       &.active {
         border-bottom: 2px solid var(--sky-of-magritte);
@@ -57,7 +57,7 @@ const Projects = () => {
         setProjects(reinventedProjects);
         break;
       case NEW_FEAT_PROJECTS:
-        setProjects(newFeatProjects);
+        setProjects(experimentalProjects);
         break;
       case REACT_PROJECTS:
         setProjects(reactProjects);

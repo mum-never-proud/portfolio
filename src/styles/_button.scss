@@ -6,17 +6,6 @@ button.btn-block {
   width: 100%;
 }
 
-button.btn.btn-link {
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-  transition: color 0.3s ease-in-out;
-
-  &:hover {
-    color: $sky-of-magritte;
-  }
-}
-
 button.btn {
   padding: 5px 15px;
   font-size: var(--font-size-medium);
@@ -27,17 +16,29 @@ button.btn {
   }
 
   &:hover:not(:disabled):not(.btn-link) {
-    cursor: pointer;
     box-shadow: var(--elevation-low);
+    cursor: pointer;
   }
 
   &:disabled {
-    color: #ccc;
+    color: var(--cerebral-grey);
     cursor: not-allowed;
   }
 }
 
-button.btn-primary {
+button.btn.btn-link {
+  border: 0;
+  color: var(--black-out);
+  background-color: transparent;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: $sky-of-magritte;
+  }
+}
+
+button.btn.btn-primary {
   color: var(--wash-me);
   background-color: var(--black-out);
 }

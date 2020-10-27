@@ -1,5 +1,5 @@
 import { CgFileDocument } from 'react-icons/cg';
-import { VscGithub } from 'react-icons/vsc';
+import { VscGithub, VscChevronUp } from 'react-icons/vsc';
 import { scroller } from 'react-scroll';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
@@ -28,8 +28,24 @@ const HeaderWrapper = styled.div`
     }
   }
 
-  button.btn-primary {
+  button.btn.btn-primary {
     font-size: 12px;
+  }
+
+  .chevron {
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+    border-radius: 100%;
+    color: var(--wash-me);
+    background-color: var(--sky-of-magritte);
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
   @media (max-width: 424px) {
@@ -51,7 +67,8 @@ const menuItems = [
 ];
 
 const Header = () => {
-  const [activeSection, setActiveSection] = useState(-1);
+  const [activeSection, setActiveSection] = useState(undefined);
+  const [showChevron, setShowChevron] = useState(false);
   const scrollToHandler = (scrollTo) => scroller.scrollTo(scrollTo, {
     smooth: true,
     offset: -106,
@@ -80,15 +97,20 @@ const Header = () => {
     return () => window.removeEventListener('scroll', throttledScrollHandler);
   }, []);
 
+  useEffect(() => {
+    setShowChevron(activeSection !== undefined);
+  }, [activeSection]);
+
   return (
     <HeaderWrapper className="container">
       <div className="d-flex justify-content-between align-items-center">
         <h1>AH</h1>
         <ul className="d-flex align-items-center actions">
-          <li>
+          <li className="mr-1">
             <button
               type="button"
-              className="btn btn-link"
+              className="btn btn-link p-0"
+              onClick={() => window.open('https://github.com/mum-never-proud')}
             >
               <VscGithub size={25} />
             </button>
@@ -97,7 +119,7 @@ const Header = () => {
             <button
               type="button"
               className="btn btn-primary"
-              onClick={() => window.open('https://www.w3schools.com')}
+              onClick={() => window.open('/docs/resume.pdf')}
             >
               Resume
               {' '}
@@ -121,6 +143,15 @@ const Header = () => {
           ))
         }
       </ul>
+      {
+        showChevron && (
+          <VscChevronUp
+            size={48}
+            className="chevron"
+            onClick={() => scrollToHandler('intro')}
+          />
+        )
+      }
     </HeaderWrapper>
   );
 };

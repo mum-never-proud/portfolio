@@ -49,7 +49,6 @@ const ContactForm = () => {
   const submitForm = () => {
     setFormErrors({});
     setIsSubmitting(true);
-
     saveMessage(formValues)
       .then(() => {
         setFormValues({ ...initialFormValues });

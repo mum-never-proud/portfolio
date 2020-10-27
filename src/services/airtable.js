@@ -3,11 +3,7 @@ export default function saveMessage(fields) {
     fetch(`https://api.airtable.com/v0/${process.env.NEXT_PUBLIC_AIRTABLE_APP_NAME}/messages`, {
       method: 'POST',
       body: JSON.stringify({
-        records: [
-          {
-            fields,
-          },
-        ],
+        records: [{ fields }],
       }),
       headers: {
         Authorization: `Bearer ${process.env.NEXT_PUBLIC_AIRTABLE_API_KEY}`,

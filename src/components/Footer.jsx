@@ -3,10 +3,12 @@ import styled from 'styled-components';
 
 const FooterWrapper = styled.footer`
   font-size: 12px;
+
   img {
     width: 50px;
     height: 50px;
   }
+
   svg {
     vertical-align: middle;
   }

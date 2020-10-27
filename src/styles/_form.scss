@@ -3,7 +3,7 @@ $input-padding: 5px;
 input, textarea, select {
   padding: $input-padding 0;
   background-color: var(--wash-me);
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--cerebral-grey);
   transition: border 0.3s ease;
 
   &:focus {

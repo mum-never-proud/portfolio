@@ -10,4 +10,8 @@
   .ml-#{$margin} {
     margin-left: #{$margin}em !important;
   }
+
+  .mr-#{$margin} {
+    margin-right: #{$margin}em !important;
+  }
 }
