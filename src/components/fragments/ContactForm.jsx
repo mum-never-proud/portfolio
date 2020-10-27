@@ -84,7 +84,7 @@ const ContactForm = () => {
   };
 
   return (
-    <ContactFormWrapper className={`d-flex justify-center ${isSubmitting ? 'submitting' : ''}`}>
+    <ContactFormWrapper className={`d-flex justify-content-center ${isSubmitting ? 'submitting' : ''}`}>
       <form className="p-3" onSubmit={submitHandler} noValidate>
         <div className={`form-group ${formErrors.name ? 'has-error' : ''}`}>
           <label htmlFor="name">

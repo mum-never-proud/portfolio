@@ -34,7 +34,7 @@ const Intro = () => {
   });
 
   return (
-    <IntroWrapper className="d-flex justify-center pt-3">
+    <IntroWrapper className="d-flex justify-content-center pt-3">
       <div>
         {
         introSentences.map((sentence, index) => (

@@ -25,9 +25,7 @@ button.btn {
   > svg {
     vertical-align: middle;
   }
-}
 
-button.btn {
   &:hover:not(:disabled):not(.btn-link) {
     cursor: pointer;
     box-shadow: var(--elevation-low);

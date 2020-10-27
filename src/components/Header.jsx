@@ -84,11 +84,11 @@ const Header = () => {
     <HeaderWrapper className="container">
       <div className="d-flex justify-content-between align-items-center">
         <h1>AH</h1>
-        <ul className="d-flex align-items-center">
+        <ul className="d-flex align-items-center actions">
           <li>
             <button
               type="button"
-              className="btn btn-link btn-block"
+              className="btn btn-link"
             >
               <VscGithub size={25} />
             </button>
@@ -97,6 +97,7 @@ const Header = () => {
             <button
               type="button"
               className="btn btn-primary"
+              onClick={() => window.open('https://www.w3schools.com')}
             >
               Resume
               {' '}
