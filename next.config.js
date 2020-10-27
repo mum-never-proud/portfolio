@@ -1,6 +1,11 @@
 const path = require('path');
+const withPWA = require('next-pwa');
 
-module.exports = {
+module.exports = withPWA({
+  pwa: {
+    dest: 'public',
+    disable: process.env.NODE_ENV !== 'production',
+  },
   webpack(config) {
     const { resolve } = config;
     const overrides = {
@@ -22,4 +27,4 @@ module.exports = {
 
     return { ...config, ...overrides };
   },
-};
+});

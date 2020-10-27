@@ -29,6 +29,7 @@
   "sasslintConfig": "./sasslintrc.json",
   "dependencies": {
     "next": "9.5.5",
+    "next-pwa": "3.1.5",
     "prop-types": "15.7.2",
     "react": "16.14.0",
     "react-dom": "16.14.0",
