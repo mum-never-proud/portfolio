@@ -1,26 +1,43 @@
 import styled from 'styled-components';
 
-const AboutMeWrapper = styled.div``;
+const AboutMeWrapper = styled.div`
+  ul.technologies {
+    display: grid;
+  }
+
+  @media (min-width: 320px) {
+    ul.technologies {
+      grid-template-columns: repeat(2, minmax(140px, 200px));
+    }
+  }
+`;
 
 const AboutMe = () => (
   <AboutMeWrapper id="about" className="mt-5 section">
     <h1>About Me</h1>
-    <p className="mt-1">Hello! I&apos;m Abith Hussain, a Software Engineer based in Chennai, IN.</p>
-    <p>
-      I enjoy creating things that live on the internet, whether that be websites, applications,
-      {' '}
-      or anything in between. My goal is to always build products that provide pixel-perfect,
-      {' '}
-      performant experiences.
+    <p className="mt-1">
+      I&apos;m a Software Engineer - Frontend with over 3 years of Experience. I enjoy my
+      obsessive attention to detail while developing Appilcations.
     </p>
-    <p>
-      Shortly after graduating from Northeastern University, I joined the engineering team at
-      {' '}
-      Upstatement where I work on a wide variety of interesting and meaningful projects on a
-      {' '}
-      daily basis.
-    </p>
-    <p>Here are a few technologies I&apos;ve been working with recently:</p>
+    <ul className="ml-1">
+      <li>
+        I enjoy Creating, Debugging and Optimizing Websites, WebApps or any thing in between.
+      </li>
+      <li>
+        An Urge to Learn, Challenge and Understand new Technologies.
+      </li>
+    </ul>
+    <p className="mt-2">Here are a few Technologies I&apos;ve been working with recently:</p>
+    <ul className="ml-1 technologies">
+      <li>Vanilla JS</li>
+      <li>React.js</li>
+      <li>Ember.js</li>
+      <li>Node.js</li>
+      <li>PWA</li>
+      <li>Serverless</li>
+      <li>SSR and CSR</li>
+      <li>NoSQL</li>
+    </ul>
   </AboutMeWrapper>
 );
 

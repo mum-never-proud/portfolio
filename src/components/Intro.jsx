@@ -30,7 +30,7 @@ const IntroWrapper = styled.div`
 
 const Intro = () => {
   const scrollHandler = () => scroller.scrollTo('projects', {
-    smooth: true, offset: -96,
+    smooth: true, offset: -106,
   });
 
   return (
@@ -73,9 +73,8 @@ const Intro = () => {
           {
           (props) => (
             <div className="about mt-2" style={props}>
-              I&apos;m a Software Engineer based in Chennai, IN specializing in building
-              {' '}
-              (and occasionally designing) exceptional websites, applications, and everything in
+              I&apos;m a Software Engineer based in Chennai, IN specialized in building
+              exceptional and performant Websites, Applications, and everything in
               between.
             </div>
           )

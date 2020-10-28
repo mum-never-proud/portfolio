@@ -41,7 +41,7 @@ const NEW_FEAT_PROJECTS = 1;
 const REACT_PROJECTS = 2;
 
 const projectDescriptions = [
-  'Personally i like to reinvent the wheel to better understand Technologies/Frameworks.',
+  'Personally i like to reinvent the wheel to better understand Technologies.',
   'Projects built with Experimental Browser features.',
   'Built in React.js.',
   'Other noteworthy Projects!',

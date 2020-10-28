@@ -14,6 +14,7 @@ const HeaderWrapper = styled.div`
 
   ul {
     list-style-type: none;
+    overflow-x: auto;
 
     li {
       &.active {
