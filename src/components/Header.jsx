@@ -14,7 +14,9 @@ const HeaderWrapper = styled.div`
 
   ul {
     list-style-type: none;
-    overflow-x: auto;
+    &.menu {
+      overflow-x: auto;
+    }
 
     li {
       &.active {
@@ -52,8 +54,11 @@ const HeaderWrapper = styled.div`
   @media (max-width: 424px) {
     ul {
       li {
+        button.btn {
+          font-size: 12px;
+        }
         &:not(:last-child) {
-          margin-right: 0.5em;
+          margin-right: 0.3em;
         }
       }
     }
@@ -83,7 +88,7 @@ const Header = () => {
       sectionsIds.forEach((sectionId, index) => {
         const section = document.getElementById(sectionId);
 
-        if (window.scrollY >= section.offsetTop - 106) {
+        if (window.scrollY >= section.offsetTop - 106 - 80) {
           currentIndex = index;
         }
       });
@@ -129,7 +134,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <ul className="d-flex">
+      <ul className="d-flex menu">
         {
           menuItems.map((menuItem, index) => (
             <li key={menuItem.name} className={`${activeSection === index ? 'active' : ''}`}>
