@@ -5,9 +5,13 @@
     "github_link": "https://github.com/mum-never-proud/jrrey/",
     "demo_link": "https://mum-never-proud.github.io/jrrey/",
     "features": [
-      "Light weight library makes it easier to add Speech Recognition to your Websites.",
+      "A lightweight library makes it easier to add Speech Recognition to your Websites.",
       "Jrrey understands commands with named Variables and Optional words (using RegExp).",
       "Jrrey plays nicely with all browsers and doesn't have side effects on unsupported Browsers."
+    ],
+    "technologies": [
+      "JS",
+      "Speech Recognition API"
     ]
   },
   {
@@ -19,6 +23,10 @@
       "Supports multiple Image Filters and Effects.",
       "Performant on Low End Devcies.",
       "Your Image stays in your browser, no data is transmitted over the Internet."
+    ],
+    "technologies": [
+      "JS",
+      "CanvasRenderingContext2D.filter API"
     ]
   },
   {
@@ -28,7 +36,11 @@
     "demo_link": "https://mum-never-proud.github.io/jspeaker/",
     "features": [
       "Makes use of Browser's built-in Web Speech API to convert Text to Speech.",
-      "Latency of converting Text to Speech can be completely avoided if the browser supports Web Speech API."
+      "Latency to convert Text to Speech can be avoided if the browser supports Web Speech API."
+    ],
+    "technologies": [
+      "JS",
+      "Web Speech API"
     ]
   }
 ]

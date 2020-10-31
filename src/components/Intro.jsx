@@ -73,8 +73,8 @@ const Intro = () => {
           {
           (props) => (
             <div className="about mt-2" style={props}>
-              I&apos;m a Software Engineer based in Chennai, IN specialized in building
-              exceptional and performant Websites, Applications, and everything in
+              I&apos;m a Product-Minded Software engineer based in Chennai, IN, specializing
+              in building exceptional and performant Websites, Applications, and everything in
               between.
             </div>
           )

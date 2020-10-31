@@ -26,10 +26,10 @@ const ProjectsWrapper = styled.div`
       border-bottom: 2px solid var(--cerebral-grey);
 
       &.active {
-        border-bottom: 2px solid var(--sky-of-magritte);
+        border-bottom: 2px solid var(--organza-violet);
 
         > .btn-link {
-          color: var(--sky-of-magritte);
+          color: var(--organza-violet);
         }
       }
     }
@@ -41,9 +41,9 @@ const NEW_FEAT_PROJECTS = 1;
 const REACT_PROJECTS = 2;
 
 const projectDescriptions = [
-  'Personally i like to reinvent the wheel to better understand Technologies.',
+  'I like to reinvent the wheel to understand Technologies better.',
   'Projects built with Experimental Browser features.',
-  'Built in React.js.',
+  'Built with React.js.',
   'Other noteworthy Projects!',
 ];
 

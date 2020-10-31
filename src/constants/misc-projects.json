@@ -7,25 +7,39 @@
     "features": [
       "Provides a simple interface to query Objects from an Array (collections).",
       "Makes your code much readable and concise."
+    ],
+    "technologies": [
+      "JS"
     ]
   },
   {
     "name": "WhatsUp",
     "description": "A fun Service developed using Twilio WhatsApp API.",
-    "github_link": "https://github.com/mum-never-proud/redux",
-    "demo_link": "https://mum-never-proud.github.io/ironic/",
+    "github_link": "https://github.com/mum-never-proud/whats-up",
+    "demo_link": "",
     "features": [
       "Preview Spotify songs on WhatsApp using spotify-preview (song name).",
       "Get Github User Profile on WhatsApp using git-user (user name).",
       "Get Github Repo Details on WhatsApp using git-repo (repo name).",
       "Get NPM Registry Details on WhatsApp using npm-reg (registry name)."
+    ],
+    "technologies": [
+      "JS",
+      "Node.js",
+      "Twilio",
+      "API"
     ]
   },
   {
     "name": "Text Similarity Analysis",
     "description": "Library to calculate Cosine similarity and Levenshtein distance between two sentences.",
     "github_link": "https://github.com/mum-never-proud/text-similarity-analysis",
-    "demo_link": "https://mum-never-proud.github.io/text-similarity-analysis/"
+    "demo_link": "https://mum-never-proud.github.io/text-similarity-analysis/",
+    "technologies": [
+      "JS",
+      "Levenshtein distance",
+      "Cosine Similarity"
+    ]
   },
   {
     "name": "Wiki Snapshot",
@@ -33,8 +47,12 @@
     "github_link": "https://github.com/mum-never-proud/wiki-events-snapshot",
     "demo_link": "",
     "features": [
-      "Recursively captures the DOM snapshot and Serialize to transmit over the Network.",
-      "Reconstructs/Deserialize the DOM snapshot "
+      "A Library to serialize rendered HTML page to JSON.",
+      "Recursively captures the DOM snapshot.",
+      "Reconstructs/Deserializes the captured DOM snapshot."
+    ],
+    "technologies": [
+      "JS"
     ]
   }
 ]

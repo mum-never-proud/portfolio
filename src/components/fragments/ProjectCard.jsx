@@ -6,11 +6,22 @@ const ProjectCardWrapper = styled.div`
   color: var(--wash-me);
   background-color: var(--black-out);
   box-shadow: var(--elevation-low);
+
+  display: flex;
+  flex-direction: column;
+
+  .features {
+    flex: 1;
+  }
+
+  .technologies {
+    font-size: 14px;
+  }
 `;
 
 const ProjectCard = ({ project }) => {
   const {
-    name, description, features,
+    name, description, features, technologies,
   } = project;
 
   return (
@@ -18,32 +29,45 @@ const ProjectCard = ({ project }) => {
       <div className="project-card-header d-flex align-items-center justify-content-between">
         <h3>{name}</h3>
         <div className="actions">
-          <a href={project.github_link} target="_blank" rel="noreferrer">
-            <VscGithub />
-          </a>
+          {
+            project.github_link && (
+              <a className="light translate d-inline-block" href={project.github_link} target="_blank" rel="noreferrer">
+                <VscGithub size={18} />
+              </a>
+            )
+          }
           {
             project.demo_link && (
-              <a href={project.demo_link} target="_blank" rel="noreferrer" className="ml-1">
-                <VscLinkExternal />
+              <a href={project.demo_link} target="_blank" rel="noreferrer" className="ml-1 light translate d-inline-block">
+                <VscLinkExternal size={18} />
               </a>
             )
           }
         </div>
       </div>
       <p>{description}</p>
-      {
+      <div className="features">
+        {
         features?.length > 0 && (
-          <div>
+          <>
             Features:
             <ul className="ml-2">
               {
-            features.map((feature) => (
-              <li key={feature}>
-                {feature}
-              </li>
-            ))
-          }
+                features.map((feature) => (
+                  <li key={feature}>
+                    {feature}
+                  </li>
+                ))
+              }
             </ul>
+          </>
+        )
+      }
+      </div>
+      {
+        technologies?.length && (
+          <div className="d-inline-flex justify-content-end mt-1 technologies">
+            {technologies.join(', ')}
           </div>
         )
       }
@@ -58,6 +82,7 @@ ProjectCard.propTypes = {
     github_link: PropTypes.string,
     demo_link: PropTypes.string,
     features: PropTypes.arrayOf(String),
+    technologies: PropTypes.arrayOf(String),
   }).isRequired,
 };
 

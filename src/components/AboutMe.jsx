@@ -16,19 +16,19 @@ const AboutMe = () => (
   <AboutMeWrapper id="about" className="mt-5 section">
     <h1>About Me</h1>
     <p className="mt-1">
-      I&apos;m a Product-Minded Software engineer who builds and ships High-Quality Product Features
-      that solve business problems. I keep myself in customer shoes and enjoy brainstorming with
-      PM(s), UX Designer(s) to critque the Design, bring up the Pain points, discuss Edge Cases etc.
-      to deliver High-Quality Product Features.
+      I&apos;m a Product-Minded Software engineer who takes Ownership, Builds, and Ships
+      High-Quality Product Features that solve business problems. I keep myself in customer
+      shoes and enjoy brainstorming with PM(s), UX Designer(s) to critique the Design, bring
+      up the Pain points, discuss Edge Cases, etc. to smooth out the Feature Development process.
     </p>
     <p>
-      Technically I care much about writing a Clean Code which is Testable and understandable
-      by Human Beings (especially Junior Devs) rather than a Machine as we have bundlers
-      for Machine friendly Obfuscation.
+      Technically I hate to do the job of Bundlers and care much about writing a Code that is
+      Testable and understandable by Human Beings (especially Junior Devs) rather than a Machine.
     </p>
     <p>
-      In my free time i contribute to Open Source projects or build innovative WebApps with
-      Experimental browser features.
+      In my free time, I contribute to Open Source, which is more of a hobby to me or, I create my
+      Projects to experiment with New Features or explore new Technologies, but right now, my focus
+      is to learn Backend Engineering.
     </p>
     <p className="mt-2">Here are a few Technologies I&apos;ve been working with recently:</p>
     <ul className="ml-1 technologies">

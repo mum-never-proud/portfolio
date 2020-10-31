@@ -1,13 +1,16 @@
 [
   {
     "name": "Ironic",
-    "description": "A Virtual DOM Library to build UI Interfaces.",
+    "description": "A Virtual DOM (vDOM) Library similar to React.js to build UI Interfaces.",
     "github_link": "https://github.com/mum-never-proud/ironic",
     "demo_link": "https://mum-never-proud.github.io/ironic/",
     "features": [
       "Break the UI into a Component Hierarchy.",
       "Uses diffing algorithm similar to React.js for minimum possible update to the DOM Tree.",
       "Single Event Manager for an Entire App."
+    ],
+    "technologies": [
+      "JS"
     ]
   },
   {
@@ -16,18 +19,25 @@
     "github_link": "https://github.com/mum-never-proud/redux",
     "demo_link": "https://mum-never-proud.github.io/ironic/",
     "features": [
-      "Predictable",
-      "Centralized",
-      "Flexible"
+      "Predictable.",
+      "Centralized.",
+      "Flexible."
+    ],
+    "technologies": [
+      "JS"
     ]
   },
   {
-    "name": "GodPromise",
-    "description": "Implementation of Promise in JS based on Promises/A+ Spec.",
-    "github_link": "https://github.com/mum-never-proud/god-promise",
-    "demo_link": "",
+    "name": "Rooter",
+    "description": "Modern Javascript Router.",
+    "github_link": "https://github.com/mum-never-proud/rooter/",
+    "demo_link": "https://mum-never-proud.github.io/rooter/",
     "features": [
-      "Revealing Constructor Pattern"
+      "Compatible with History and Hash routing.",
+      "Written in ES6+."
+    ],
+    "technologies": [
+      "JS"
     ]
   },
   {
@@ -40,16 +50,19 @@
       "Same familiar API as jQuery (but without the extra weight of modules like $.ajax, $.animate etc.).",
       "The source is written in ES6.",
       "Experimental single event manager."
+    ],
+    "technologies": [
+      "JS"
     ]
   },
   {
-    "name": "Rooter",
-    "description": "Modern Javascript Router.",
-    "github_link": "https://github.com/mum-never-proud/rooter/",
-    "demo_link": "https://mum-never-proud.github.io/rooter/",
-    "features": [
-      "Compatible with History and Hash routing.",
-      "Written in ES6+."
+    "name": "GodPromise",
+    "description": "Implementation of Promise in JS based on Promises/A+ Spec.",
+    "github_link": "https://github.com/mum-never-proud/god-promise",
+    "demo_link": "",
+    "features": [],
+    "technologies": [
+      "JS"
     ]
   }
 ]

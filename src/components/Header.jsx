@@ -21,7 +21,7 @@ const HeaderWrapper = styled.div`
     li {
       &.active {
         > button {
-          color: var(--sky-of-magritte);
+          color: var(--organza-violet);
         }
       }
 
@@ -41,7 +41,7 @@ const HeaderWrapper = styled.div`
     bottom: 10px;
     border-radius: 100%;
     color: var(--wash-me);
-    background-color: var(--sky-of-magritte);
+    background-color: var(--organza-violet);
     opacity: 0.7;
     cursor: pointer;
     transition: opacity 0.3s ease-in-out;
