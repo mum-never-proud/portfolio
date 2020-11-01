@@ -19,7 +19,7 @@ const AboutMe = () => (
       I&apos;m a Product-Minded Software engineer who takes Ownership, Builds, and Ships
       High-Quality Product Features that solve business problems. I keep myself in customer
       shoes and enjoy brainstorming with PM(s), UX Designer(s) to critique the Design, bring
-      up the Pain points, discuss Edge Cases, etc. to smooth out the Feature Development process.
+      up the Pain points, discuss Edge Cases, etc. to smooth out the Development process.
     </p>
     <p>
       Technically I hate to do the job of Bundlers and care much about writing a Code that is
