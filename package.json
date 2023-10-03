@@ -28,7 +28,7 @@
   "homepage": "https://github.com/mum-never-proud/portfolio#readme",
   "sasslintConfig": "./sasslintrc.json",
   "dependencies": {
-    "next": "10.0.0",
+    "next": "13.5.4",
     "next-pwa": "3.1.5",
     "prop-types": "15.7.2",
     "react": "16.14.0",
